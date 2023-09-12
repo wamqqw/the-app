@@ -1,0 +1,47 @@
+body {
+    background-color: orange;
+    color: white;
+}
+
+.clicker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+  
+h1 {
+    font-size: 36px;
+}
+  
+p {
+    font-size: 40px;
+    margin: 10px 0;
+}
+  
+.mainBtn {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 24px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #0056b3;
+}
+  
+.upgradeBtn {
+    margin-left: 20px;
+}

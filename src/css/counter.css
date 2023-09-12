@@ -1,0 +1,11 @@
+
+.blue {
+    background:darkblue;
+    color: white;
+    border-radius: 4pt;
+    border:0;
+    cursor: pointer;
+    padding: 4pt 8pt;
+    height: 50px;
+    width: 50px;
+}
